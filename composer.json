@@ -1,0 +1,21 @@
+{
+    "name": "payter/has-column-many",
+    "description": "This package will provide functionality to add coma separated ID relations for Laravel Eloquent models",
+    "require": {
+        "laravel/framework": ">=5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PayteR\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter PayteR Gašparík",
+            "email": "payter86@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
