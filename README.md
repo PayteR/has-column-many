@@ -1,13 +1,21 @@
-# Coma separated IDs, JSON and PHP Serialized relationships for Laravel Eloquent models
+# Comma separated IDs, JSON and PHP Serialized relationships for Laravel Eloquent models
 
-You will be able to make relations of coma separated values in your MySQL table super easely, with adding just few lines of code into your Eloquent model. 
+You will be able to make relations of comma separated values in your MySQL table super easely, with adding just few lines of code into your Eloquent model. 
 
 It 
 
 So if you use Laravel and your relations in the table looks like this, then this package is for you:
 
-![Coma separated example](./docs/table-example.png)
+![Comma separated example](./docs/table-example.png)
 ![PHP Serialized example](./docs/table-serialized-example.png)
+
+## Installation
+
+Require package with composer
+
+```PHP
+composer require payter/has-column-many
+```
 
 ## Basic usage
 
@@ -52,5 +60,7 @@ return $this->hasColumnMany(RelatedModel::class, ['related_ids', 'another_column
 
 ### JSON and Serialised ID's 
 
-You don't need to do anything, it will automatically asume if it's coma separated or JSON or Serialized.
+You don't need to do anything, it will automatically asume if it's comma separated or JSON or Serialized.
+
+## You can 
 
