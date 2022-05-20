@@ -450,6 +450,10 @@ class HasColumnMany extends Relation
 
         $value = data_get($value, '*.' . $key);
 
+        if(!$value) {
+            return [];
+        }
+
         return array_map('intval', $value);
     }
 
